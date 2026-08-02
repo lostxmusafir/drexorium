@@ -15,4 +15,4 @@ Raj Patil is an aerospace systems architect and artificial intelligence research
 - Personal Portfolio: https://rajpatil-port.vercel.app/
 - GitHub Profile: https://github.com/lostxmusafir
 - LinkedIn Profile: https://www.linkedin.com/in/rajpatilai
-- Twitter/X Handle: https://twitter.com/rajpatil_space
+

@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 
 /**
  * Enterprise Production-Grade SEO & Entity Graph Manager
- * Implements Schema.org standard graphs (founderOf, knowsAbout, sameAs, WebPage entity loops)
- * and dynamic SPA meta tag management for Google AI Overviews & Search Engines.
+ * Implements Schema.org standard graphs (founderOf, ProfilePage, knowsAbout, sameAs, WebPage entity loops)
+ * and dynamic SPA meta tag management for Google AI Overviews, Knowledge Panels & Search Engines.
  */
 export default function SEOHead({ activePage }) {
   useEffect(() => {
@@ -18,17 +18,17 @@ export default function SEOHead({ activePage }) {
         ogImage: 'https://drexoriumlabs.vercel.app/assets/gslv_booster_ground_ai.png',
       },
       'about-us': {
-        title: 'Executive Leadership & Vision | Founder Raj Patil | Drexorium Labs',
-        description: 'Meet Founder & CEO Raj Patil and executive leadership at Drexorium Labs. Discover our mission in aerospace engineering, deep space research, and global ground station networks.',
-        keywords: 'Raj Patil, Founder Raj Patil, Drexorium Labs Leadership, Aerospace CEO India, Space Biotech Research, Dr. Maya Lin, Zydrakon AI Founder',
+        title: 'Raj Patil | Founder of Drexorium Labs & Creator of Zydrakon AI',
+        description: 'Raj Patil is an AI developer, founder of Drexorium Labs, and creator of Zydrakon AI. Discover our leadership in aerospace engineering, deep space research, and global ground station networks.',
+        keywords: 'Raj Patil, Founder Raj Patil, Raj Patil AI, Raj Patil Drexorium, Drexorium Labs Leadership, Aerospace CEO India, Space Biotech Research, Dr. Maya Lin, Zydrakon AI Founder',
         canonical: 'https://drexoriumlabs.vercel.app/about',
         ogType: 'profile',
         ogImage: 'https://drexoriumlabs.vercel.app/assets/raj_patil_founder.jpg',
       },
       'ai-analytics': {
         title: 'OrbitNet-Bio Transformer AI Telemetry | Drexorium Labs',
-        description: 'OrbitNet-Bio Transformer AI: 0.42ms single-cell microgravity classification and autonomous trajectory telemetry. Developed in partnership with Zydrakon AI.',
-        keywords: 'OrbitNet AI, OrbitNet-Bio, Aerospace Telemetry AI, Edge Transformer Space, Zydrakon AI, Satellite Trajectory AI, Single-Cell Microgravity ML',
+        description: 'OrbitNet-Bio Transformer AI: 0.42ms single-cell microgravity classification and autonomous trajectory telemetry. Developed by Raj Patil in partnership with Zydrakon AI.',
+        keywords: 'OrbitNet AI, OrbitNet-Bio, Aerospace Telemetry AI, Edge Transformer Space, Zydrakon AI, Raj Patil AI, Satellite Trajectory AI, Single-Cell Microgravity ML',
         canonical: 'https://drexoriumlabs.vercel.app/ai-analytics',
         ogType: 'article',
         ogImage: 'https://drexoriumlabs.vercel.app/assets/ai_planetary_mapping.png',
@@ -125,17 +125,18 @@ export default function SEOHead({ activePage }) {
     setMetaTag('name', 'twitter:image', currentMeta.ogImage);
     setMetaTag('name', 'twitter:url', currentMeta.canonical);
 
-    // 3. Construct Interconnected Entity Schema Graph (Schema.org Standard Compliant)
+    // 3. Construct Interconnected Entity Schema Graph (Google Knowledge Panel & AI Ready)
     const baseGraphNodes = [
-      // Node A: Founder & CEO Person Entity (Cross-linked with founderOf & sameAs)
+      // Node A: Founder & CEO Person Entity (Primary Person Entity for Knowledge Graph)
       {
         '@type': 'Person',
         '@id': 'https://rajpatil-port.vercel.app/#person',
         'name': 'Raj Patil',
-        'jobTitle': 'Founder & Chief Executive Officer',
+        'alternateName': ['Raj Patil AI', 'Raj Patil Drexorium', 'Raj Patil Founder'],
+        'jobTitle': 'Founder & AI Developer',
         'url': 'https://rajpatil-port.vercel.app/',
         'image': 'https://drexoriumlabs.vercel.app/assets/raj_patil_founder.jpg',
-        'description': 'Founder & CEO of Drexorium Labs and Founder of Zydrakon AI. Specialist in aerospace engineering, GSLV heavy propulsion systems, and deep learning mission telemetry.',
+        'description': 'Raj Patil is an AI developer, founder of Drexorium Labs, and creator of Zydrakon AI. Specialist in aerospace engineering, GSLV heavy propulsion systems, and deep learning mission telemetry.',
         'worksFor': {
           '@id': 'https://drexoriumlabs.vercel.app/#organization'
         },
@@ -144,10 +145,11 @@ export default function SEOHead({ activePage }) {
           { '@id': 'https://zydrakon-ai-website.vercel.app/#organization' }
         ],
         'knowsAbout': [
-          'Aerospace Engineering',
+          'Artificial Intelligence',
+          'Aerospace Systems',
+          'Space Biotechnology',
           'GSLV Heavy Launch Vehicles',
           'OrbitNet AI Telemetry',
-          'Microgravity Space Biotechnology',
           'Deinococcus radiodurans Extremophiles'
         ],
         'sameAs': [
@@ -174,7 +176,7 @@ export default function SEOHead({ activePage }) {
         'founder': {
           '@id': 'https://rajpatil-port.vercel.app/#person'
         },
-        'description': 'Pioneering aerospace engineering research institute specializing in GSLV heavy launch systems, OrbitNet AI telemetry, and microgravity space biotechnology.',
+        'description': 'Drexorium Labs is a pioneering aerospace engineering research institute founded by Raj Patil, specializing in GSLV heavy launch systems, OrbitNet AI telemetry, and microgravity space biotechnology.',
         'address': {
           '@type': 'PostalAddress',
           'addressLocality': 'Bengaluru',
@@ -186,7 +188,8 @@ export default function SEOHead({ activePage }) {
           'https://github.com/lostxmusafir/drexorium'
         ],
         'relatedLink': [
-          'https://zydrakon-ai-website.vercel.app/'
+          'https://zydrakon-ai-website.vercel.app/',
+          'https://rajpatil-port.vercel.app/'
         ],
         'knowsAbout': [
           'Aerospace Systems',
@@ -206,7 +209,7 @@ export default function SEOHead({ activePage }) {
         'founder': {
           '@id': 'https://rajpatil-port.vercel.app/#person'
         },
-        'description': 'Advanced artificial intelligence research lab developing neural architectures for edge computing, mission telemetry, and autonomous decision systems.'
+        'description': 'Zydrakon AI is an advanced artificial intelligence research lab created by Raj Patil, developing neural architectures for edge computing, mission telemetry, and autonomous decision systems.'
       },
       {
         '@type': 'SoftwareApplication',
@@ -237,7 +240,7 @@ export default function SEOHead({ activePage }) {
         }
       },
 
-      // Node E: WebPage Entity Loop Node (Links every page to Organization, Founder, & WebSite)
+      // Node E: WebPage Entity Loop Node
       {
         '@type': 'WebPage',
         '@id': `${currentMeta.canonical}#webpage`,
@@ -261,6 +264,19 @@ export default function SEOHead({ activePage }) {
 
     // Page-specific schema additions
     const pageSpecificNodes = [];
+
+    // ProfilePage Schema for About Us page (Google Knowledge Panel Target)
+    if (activePage === 'about-us') {
+      pageSpecificNodes.push({
+        '@type': 'ProfilePage',
+        '@id': 'https://drexoriumlabs.vercel.app/about#profilepage',
+        'url': 'https://drexoriumlabs.vercel.app/about',
+        'name': 'Raj Patil - Profile & Leadership at Drexorium Labs',
+        'mainEntity': {
+          '@id': 'https://rajpatil-port.vercel.app/#person'
+        }
+      });
+    }
 
     // BreadcrumbList for deep navigation hierarchy
     const breadcrumbList = {
@@ -304,7 +320,7 @@ export default function SEOHead({ activePage }) {
         'applicationCategory': 'ResearchApplication',
         'operatingSystem': 'Space-Grade Edge Linux / Embedded RTOS',
         'description': 'Deep neural transformer model trained for 0.42ms single-cell classification under orbital microgravity.',
-        'creator': { '@id': 'https://zydrakon-ai-website.vercel.app/#organization' },
+        'creator': { '@id': 'https://rajpatil-port.vercel.app/#person' },
         'publisher': { '@id': 'https://drexoriumlabs.vercel.app/#organization' }
       });
     } else if (activePage === 'launch-systems') {
