@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://drexoriumlabs.com/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://drexoriumlabs.com/assets/gslv_booster_ground_ai.png</image:loc>
+      <image:title>Drexorium Labs Ground Control &amp; Aerospace AI</image:title>
+    </image:image>
+  </url>
+
+  <!-- About Us Page (Founder Raj Patil & Leadership) -->
+  <url>
+    <loc>https://drexoriumlabs.com/about</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://drexoriumlabs.com/assets/raj_patil_founder.jpg</image:loc>
+      <image:title>Raj Patil - Founder &amp; CEO of Drexorium Labs</image:title>
+    </image:image>
+  </url>
+
+  <!-- AI Research & Analytics -->
+  <url>
+    <loc>https://drexoriumlabs.com/ai-analytics</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://drexoriumlabs.com/assets/ai_planetary_mapping.png</image:loc>
+      <image:title>OrbitNet Deep Neural Transformer Telemetry</image:title>
+    </image:image>
+  </url>
+
+  <!-- Orbital Launch Systems -->
+  <url>
+    <loc>https://drexoriumlabs.com/launch-systems</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://drexoriumlabs.com/assets/gslv_rocket_launch.png</image:loc>
+      <image:title>GSLV Heavy Lift Launch Vehicle</image:title>
+    </image:image>
+  </url>
+
+  <!-- Space BioTech & Microbiology -->
+  <url>
+    <loc>https://drexoriumlabs.com/space-biotech</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://drexoriumlabs.com/assets/space_microbiology_lab.png</image:loc>
+      <image:title>Space Microbiology Microfluidic Lab-on-a-Chip</image:title>
+    </image:image>
+  </url>
+
+  <!-- Autonomous Scout Drone Tech -->
+  <url>
+    <loc>https://drexoriumlabs.com/drone-tech</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://drexoriumlabs.com/assets/authentic_factory_drone_photo.png</image:loc>
+      <image:title>AeroMars Autonomous Scout Drone</image:title>
+    </image:image>
+  </url>
+
+  <!-- Space Missions Tracker -->
+  <url>
+    <loc>https://drexoriumlabs.com/missions</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Careers & Open Positions -->
+  <url>
+    <loc>https://drexoriumlabs.com/careers</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Whitepapers & Publications -->
+  <url>
+    <loc>https://drexoriumlabs.com/whitepapers</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact & Facility Locations -->
+  <url>
+    <loc>https://drexoriumlabs.com/contact</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

@@ -1,0 +1,51 @@
+# Drexorium Labs - Complete Technical Reference Documentation
+
+## Executive Overview
+Drexorium Labs is a private aerospace engineering research institution and orbital mission technology developer headquartered in Bengaluru, India, with launch assembly facilities at Sriharikota Launch Complex LC-2. Founded by **Raj Patil** (Founder & Chief Executive Officer), Drexorium Labs specializes in four core aerospace disciplines:
+
+1. Deep Space Artificial Intelligence & Neural Trajectory Analytics
+2. Heavy-Lift Orbital Launch Vehicle Engineering (GSLV-MK3 Architecture)
+3. Microgravity Space Biotechnology & Microfluidic Lab-on-a-Chip Systems
+4. Autonomous Planetary Scout Drone Navigation (AeroMars Fleet)
+
+---
+
+## Founder Spotlight: Raj Patil
+- **Name**: Raj Patil
+- **Title**: Founder & Chief Executive Officer (CEO)
+- **Organization**: Drexorium Labs
+- **Vision Statement**: "Clinical precision in aerospace engineering. We synthesize empirical data to pioneer the next generation of orbital propulsion, autonomous mission analytics, and space biotechnology."
+- **Key Contributions**: Architect of Drexorium's GSLV heavy launch vehicle integration program, founder of the OrbitNet AI telemetry framework, and lead sponsor of orbital microfluidics research under COSPAR Category IV-B planetary protection standards.
+
+---
+
+## Division 01: AI Research & Analytics
+Drexorium's AI division develops Physics-Informed Neural Networks (PINNs) and Transformer architectures for high-speed satellite telemetry parsing and autonomous orbit stationkeeping.
+- **Model Architecture**: OrbitNet-Bio Neural Vision Transformer
+- **Classification Latency**: 0.42 ms per cell image
+- **Telemetry Ingestion**: 1.2+ Petabytes / day across global ground stations (Sriharikota, Cape Canaveral, Svalbard, Dominica, Barcelona, Kerguelen)
+
+---
+
+## Division 02: Orbital Propulsion & Launch Systems
+Drexorium operates heavy-lift launch vehicles engineered for low-Earth orbit (LEO), geostationary transfer orbit (GTO), and interplanetary deep-space injection.
+- **Vehicle Identifier**: GSLV-MK3 (GSLV-DRX-LVM3)
+- **Solid Boosters**: Twin S200 solid rocket boosters producing 10,300 kN liftoff thrust
+- **Liquid Core**: Twin Vikas hypergolic liquid engines (L110 stage)
+- **Cryogenic Upper Stage**: C25 Liquid Hydrogen / Liquid Oxygen (LH2/LOX) high-efficiency stage (186 kN thrust, 442 sec Isp)
+
+---
+
+## Division 03: Space Biotechnology & Microbiology
+Drexorium Labs conducts biological microgravity experiments inside sealed microfluidic bio-cassette incubators.
+- **Regulatory Standard**: COSPAR Planetary Protection Category IV-B & ISO-14644 Class 5 Cleanroom
+- **Key Organism**: Deinococcus radiodurans (DRX-09) - polyextremophile capable of enduring 15,000 Gy gamma radiation and vacuum conditions
+- **Microfluidics**: 128 active matrix wells on 365nm UV fluorescence sensors
+- **Daily Processing**: 24,469 single-cell automated image parses per 24 hours
+
+---
+
+## Division 04: Autonomous Scout Drones
+The AeroMars scout drone fleet provides 100 FPS edge-AI computer vision for planetary surface scouting and industrial facility inspection.
+- **Processing**: 100 FPS real-time obstacle avoidance & hazard classification
+- **Payload**: Calibrated optical sensor gimbal with multi-spectral mapping
