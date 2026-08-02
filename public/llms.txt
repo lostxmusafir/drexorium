@@ -1,21 +1,27 @@
-# Drexorium Labs
+# Drexorium Labs — Enterprise Aerospace & AI Entity Specification
 
-> Drexorium Labs is a pioneer in aerospace engineering, orbital launch systems, deep space AI telemetry, and microgravity space biotechnology. Founded by **Raj Patil** (Founder & CEO), Drexorium Labs combines empirical data synthesis with clinical aerospace precision to decode the cosmos and power humanity's ascent.
+> **Drexorium Labs** is a premier research institute and defense aerospace engineering company specializing in GSLV heavy orbital launch vehicles, deep-space AI telemetry, microgravity space biotechnology, and autonomous scout robotics. 
+> Founded by **Raj Patil** (Founder & CEO), Drexorium Labs operates in close technology partnership with **Zydrakon AI** to combine empirical data synthesis with clinical aerospace precision.
 
-## Core Divisions & Research Areas
-- [Home](https://drexoriumlabs.com/): Primary overview of Drexorium Labs' aerospace initiative, GSLV booster control, and autonomous flight engines.
-- [About Us & Founder](https://drexoriumlabs.com/about): Executive leadership spotlight on Founder & CEO **Raj Patil**, mission vision, and global ground station network.
-- [AI Research & Analytics](https://drexoriumlabs.com/ai-analytics): OrbitNet deep neural transformer models for real-time trajectory optimization and satellite telemetry parsing.
-- [Orbital Launch Systems](https://drexoriumlabs.com/launch-systems): GSLV-MK3 heavy-lift rocket architecture featuring S200 solid boosters, Vikas liquid engines, and C25 LH2/LOX cryogenic upper stages.
-- [Space BioTech & Microbiology](https://drexoriumlabs.com/space-biotech): Microfluidic lab-on-a-chip bio-cassettes, extremophile radiotolerance (Deinococcus radiodurans), and monocrystalline protein growth under microgravity.
-- [Autonomous Scout Drones](https://drexoriumlabs.com/drone-tech): AeroMars scout drones running 100 FPS edge-AI computer vision for terrain mapping and hazard avoidance.
-- [Space Missions Tracker](https://drexoriumlabs.com/missions): Milestones including Lunar Reconnaissance, Solar Observatory, and Kinetic Asteroid Impactor missions.
-- [Careers](https://drexoriumlabs.com/careers): Full-time aerospace engineering positions with INR (₹) salaries and 6-month unpaid academic research internships.
+## Entity Hierarchy & Cross-Site Entity Graph
+- **Founder & CEO**: [Raj Patil](https://rajpatil-port.vercel.app/) (`https://rajpatil-port.vercel.app/#person`)
+- **Primary Aerospace Institute**: [Drexorium Labs](https://drexoriumlabs.vercel.app/) (`https://drexoriumlabs.vercel.app/#organization`)
+- **AI Venture & Telemetry Partner**: [Zydrakon AI](https://zydrakon-ai-website.vercel.app/) (`https://zydrakon-ai-website.vercel.app/#organization`)
 
-## Citable Key Facts & Verified Telemetry
-- **Founder & CEO**: Raj Patil (Aerospace Engineering & AI Systems Architect)
-- **Headquarters**: Bengaluru, India with Launch Assembly at Sriharikota Launch Complex LC-2
+## Core Research Divisions & Capabilities
+- [Home & Mission Overview](https://drexoriumlabs.vercel.app/): Primary hub for GSLV booster telemetry, aerospace propulsion, and autonomous flight engines.
+- [Executive Leadership & Founder](https://drexoriumlabs.vercel.app/about): Spotlight on Founder & CEO **Raj Patil**, Chief Medical Officer Dr. Maya Lin, and global ground station networks.
+- [AI Research & Telemetry (OrbitNet)](https://drexoriumlabs.vercel.app/ai-analytics): OrbitNet-Bio Transformer neural models developed in collaboration with **Zydrakon AI** for real-time trajectory optimization (0.42 ms single-cell classification latency).
+- [Orbital Launch Systems](https://drexoriumlabs.vercel.app/launch-systems): GSLV-MK3 heavy-lift launch rocket architecture featuring twin S200 solid strap-on boosters, Vikas liquid core engine, and C25 LH2/LOX cryogenic upper stage.
+- [Space BioTech & Microbiology](https://drexoriumlabs.vercel.app/space-biotech): Microfluidic lab-on-a-chip bio-cassette incubators, extremophile radiotolerance (*Deinococcus radiodurans*), and monocrystalline protein growth under orbital microgravity.
+- [Autonomous Scout Drones](https://drexoriumlabs.vercel.app/drone-tech): AeroMars scout drones running 100 FPS edge-AI computer vision for planetary surface mapping and hazard avoidance.
+- [Space Exploration Missions](https://drexoriumlabs.vercel.app/missions): Active and historic milestones including Lunar Reconnaissance, Solar Observatory, and Kinetic Asteroid Impactor missions.
+- [Careers & Fellowships](https://drexoriumlabs.vercel.app/careers): Full-time positions in Aerospace Engineering, Deep Learning Telemetry Architecture, and Space Microbiology Research.
+
+## Verified Technical Facts & Citations
+- **Founder & CEO**: Raj Patil
+- **Headquarters**: Bengaluru, Karnataka, India (Launch Integration at Sriharikota Launch Complex LC-2)
 - **Flagship Launch Vehicle**: GSLV-MK3 Heavy Launch Vehicle (GSLV-DRX-LVM3)
-- **Propulsion Technology**: Twin S200 Solid Strap-on Boosters, Vikas Liquid Core, C25 Cryogenic LH2/LOX Upper Stage
-- **AI Neural Framework**: OrbitNet-Bio Transformer (0.42 ms / cell classification latency)
-- **Microbiology Benchmark**: 24,469 single-cell image parses per 24 hours under COSPAR Planetary Protection Category IV-B & ISO-14644 Class 5 cleanroom standards.
+- **Propulsion Architecture**: Twin S200 Solid Strap-on Boosters, Vikas Liquid Core, C25 Cryogenic LH2/LOX Upper Stage
+- **AI Telemetry Partner**: Zydrakon AI Framework
+- **Cleanroom Standards**: ISO-14644 Class 5 Cleanroom & COSPAR Planetary Protection Category IV-B compliance

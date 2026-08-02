@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import TelemetryTicker from './components/TelemetryTicker';
 import SearchModal from './components/SearchModal';
+import SEOHead from './components/SEOHead';
 
 import Home from './pages/Home';
 import AIAnalytics from './pages/AIAnalytics';
@@ -47,6 +48,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#F8F9FA] text-[#191C1D] relative flex flex-col justify-between selection:bg-[#191C1D] selection:text-[#FFFFFF]">
+      {/* Enterprise Dynamic SEO Head & Entity Graph Manager */}
+      <SEOHead activePage={activePage} />
+
       {/* Main Header Navbar */}
       <Navbar
         activePage={activePage}

@@ -1,12 +1,12 @@
 # Robots.txt for Drexorium Labs
-# https://drexoriumlabs.com
+# https://drexoriumlabs.vercel.app
 
 User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-# Allow AI Search & Overview Crawlers
+# Allow AI Search, GEO & LLM Crawlers
 User-agent: GPTBot
 Allow: /
 
@@ -29,4 +29,4 @@ User-agent: Bingbot
 Allow: /
 
 # Sitemap Location
-Sitemap: https://drexoriumlabs.com/sitemap.xml
+Sitemap: https://drexoriumlabs.vercel.app/sitemap.xml
