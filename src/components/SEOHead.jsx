@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 
 /**
- * Enterprise SEO & AI Entity Graph Manager
- * Dynamically updates document title, meta tags, canonical link, Open Graph,
- * Twitter cards, and rich interconnected JSON-LD Schema Graphs for Google & AI Engines (GEO).
+ * Enterprise Production-Grade SEO & Entity Graph Manager
+ * Implements Schema.org standard graphs (founderOf, knowsAbout, sameAs, WebPage entity loops)
+ * and dynamic SPA meta tag management for Google AI Overviews & Search Engines.
  */
 export default function SEOHead({ activePage }) {
   useEffect(() => {
@@ -125,9 +125,9 @@ export default function SEOHead({ activePage }) {
     setMetaTag('name', 'twitter:image', currentMeta.ogImage);
     setMetaTag('name', 'twitter:url', currentMeta.canonical);
 
-    // 3. Construct Interconnected Entity Schema Graph (Google AI & GEO Optimized)
+    // 3. Construct Interconnected Entity Schema Graph (Schema.org Standard Compliant)
     const baseGraphNodes = [
-      // Node A: Founder & CEO Person Entity (Cross-linked to Portfolio)
+      // Node A: Founder & CEO Person Entity (Cross-linked with founderOf & sameAs)
       {
         '@type': 'Person',
         '@id': 'https://rajpatil-port.vercel.app/#person',
@@ -135,11 +135,11 @@ export default function SEOHead({ activePage }) {
         'jobTitle': 'Founder & Chief Executive Officer',
         'url': 'https://rajpatil-port.vercel.app/',
         'image': 'https://drexoriumlabs.vercel.app/assets/raj_patil_founder.jpg',
-        'description': 'Founder & CEO of Drexorium Labs and Founder of Zydrakon AI. Specialist in aerospace engineering, GSLV heavy propulsion systems, and deep learning telemetry.',
+        'description': 'Founder & CEO of Drexorium Labs and Founder of Zydrakon AI. Specialist in aerospace engineering, GSLV heavy propulsion systems, and deep learning mission telemetry.',
         'worksFor': {
           '@id': 'https://drexoriumlabs.vercel.app/#organization'
         },
-        'founder': [
+        'founderOf': [
           { '@id': 'https://drexoriumlabs.vercel.app/#organization' },
           { '@id': 'https://zydrakon-ai-website.vercel.app/#organization' }
         ],
@@ -152,18 +152,24 @@ export default function SEOHead({ activePage }) {
         ],
         'sameAs': [
           'https://rajpatil-port.vercel.app/',
-          'https://linkedin.com/in/raj-patil-drexorium',
+          'https://github.com/lostxmusafir',
+          'https://www.linkedin.com/in/rajpatilai',
           'https://twitter.com/rajpatil_space'
         ]
       },
 
-      // Node B: Primary Organization (Drexorium Labs)
+      // Node B: Primary Organization (Drexorium Labs) with explicit ImageObject logo
       {
         '@type': 'Organization',
         '@id': 'https://drexoriumlabs.vercel.app/#organization',
         'name': 'Drexorium Labs',
         'url': 'https://drexoriumlabs.vercel.app',
-        'logo': 'https://drexoriumlabs.vercel.app/assets/gslv_booster_ground_ai.png',
+        'logo': {
+          '@type': 'ImageObject',
+          '@id': 'https://drexoriumlabs.vercel.app/#logo',
+          'url': 'https://drexoriumlabs.vercel.app/assets/gslv_booster_ground_ai.png',
+          'caption': 'Drexorium Labs Aerospace Logo'
+        },
         'legalName': 'Drexorium Labs Private Limited',
         'founder': {
           '@id': 'https://rajpatil-port.vercel.app/#person'
@@ -179,16 +185,19 @@ export default function SEOHead({ activePage }) {
           'https://zydrakon-ai-website.vercel.app/',
           'https://github.com/lostxmusafir/drexorium'
         ],
+        'relatedLink': [
+          'https://zydrakon-ai-website.vercel.app/'
+        ],
         'knowsAbout': [
-          'Aerospace Engineering',
+          'Aerospace Systems',
+          'Artificial Intelligence',
+          'Space Biotechnology',
           'GSLV Rocket Launchers',
-          'OrbitNet AI Framework',
-          'Microfluidic Lab-on-a-Chip',
-          'Extremophile Space Research'
+          'Microfluidic Lab-on-a-Chip'
         ]
       },
 
-      // Node C: Sister AI Venture / Partner Organization (Zydrakon AI)
+      // Node C: Sister AI Venture / Software Application Entity (Zydrakon AI)
       {
         '@type': 'Organization',
         '@id': 'https://zydrakon-ai-website.vercel.app/#organization',
@@ -198,6 +207,19 @@ export default function SEOHead({ activePage }) {
           '@id': 'https://rajpatil-port.vercel.app/#person'
         },
         'description': 'Advanced artificial intelligence research lab developing neural architectures for edge computing, mission telemetry, and autonomous decision systems.'
+      },
+      {
+        '@type': 'SoftwareApplication',
+        '@id': 'https://zydrakon-ai-website.vercel.app/#software',
+        'name': 'Zydrakon AI Engine',
+        'applicationCategory': 'Artificial Intelligence',
+        'operatingSystem': 'Space-Grade Edge Linux / Embedded RTOS',
+        'creator': {
+          '@id': 'https://rajpatil-port.vercel.app/#person'
+        },
+        'publisher': {
+          '@id': 'https://zydrakon-ai-website.vercel.app/#organization'
+        }
       },
 
       // Node D: WebSite Schema
@@ -212,6 +234,27 @@ export default function SEOHead({ activePage }) {
         },
         'copyrightHolder': {
           '@id': 'https://drexoriumlabs.vercel.app/#organization'
+        }
+      },
+
+      // Node E: WebPage Entity Loop Node (Links every page to Organization, Founder, & WebSite)
+      {
+        '@type': 'WebPage',
+        '@id': `${currentMeta.canonical}#webpage`,
+        'url': currentMeta.canonical,
+        'name': currentMeta.title,
+        'description': currentMeta.description,
+        'about': {
+          '@id': 'https://drexoriumlabs.vercel.app/#organization'
+        },
+        'creator': {
+          '@id': 'https://rajpatil-port.vercel.app/#person'
+        },
+        'publisher': {
+          '@id': 'https://drexoriumlabs.vercel.app/#organization'
+        },
+        'isPartOf': {
+          '@id': 'https://drexoriumlabs.vercel.app/#website'
         }
       }
     ];
