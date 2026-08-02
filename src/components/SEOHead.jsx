@@ -103,6 +103,7 @@ export default function SEOHead({ activePage }) {
     };
 
     // Update standard meta tags
+    setMetaTag('name', 'google-site-verification', 'Vg8f9WF2ymgvM8FGnkVI2ZKS13Pm50eNiY_ol9iIxYU');
     setMetaTag('name', 'description', currentMeta.description);
     setMetaTag('name', 'keywords', currentMeta.keywords);
     setMetaTag('name', 'author', 'Raj Patil (Founder & CEO, Drexorium Labs)');
