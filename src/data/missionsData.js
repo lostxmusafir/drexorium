@@ -84,6 +84,24 @@ export const missionsData = [
       "Autonomous ice-drilling payload prototype undergoing cryo testing.",
       "Partnership with international space agencies."
     ]
+  },
+  {
+    id: "drx-06",
+    name: "GSLV-DRX6 Interstellar Flagship Probe",
+    date: "December 25, 2030",
+    status: "UPCOMING LAUNCH",
+    countdownTarget: "2030-12-25T00:00:00Z",
+    vehicle: "GSLV-MK3 Interstellar Heavy",
+    payload: "Deep Space AI Autonomous Sentinel Probe",
+    orbit: "Heliospheric Boundary Interstellar Trajectory",
+    successRate: "SCHEDULED",
+    patchColor: "#FF0055",
+    summary: "Flagship deep-space exploration launch scheduled for 25 Dec 2030. Designed for autonomous interstellar navigation and cosmic radiation telemetry.",
+    highlights: [
+      "Scheduled launch target set for 25 Dec 2030.",
+      "Integrated 500 PFLOPS quantum-AI autonomous telemetry node.",
+      "Deep space interstellar probe deployment."
+    ]
   }
 ];
 
@@ -92,5 +110,6 @@ export const timelineEvents = [
   { year: "2022", title: "First AI Model Deployment", desc: "Launched OrbitNet-v1, reducing satellite collision risk calculation time by 98%." },
   { year: "2023", title: "C25 Engine Cryo Milestone", desc: "Completed 600-second sustained test firing of C25 Cryogenic Engine at Mahendragiri Propulsion Complex." },
   { year: "2025", title: "Deep Space Expansion", desc: "Launched GSLV-DRX3 Mars atmosphere probe and commissioned 100 PFLOPS orbital AI datacenter." },
-  { year: "2026", title: "Planetary Defense & Beyond", desc: "Preparing for GSLV-DRX4 Kinetic Asteroid Impactor launch and next-gen reuse booster testing." }
+  { year: "2026", title: "Planetary Defense & Beyond", desc: "Preparing for GSLV-DRX4 Kinetic Asteroid Impactor launch and next-gen reuse booster testing." },
+  { year: "2030", title: "Interstellar Flagship Launch", desc: "Scheduled flagship launch on 25 Dec 2030, unifying AI telemetry with interstellar propulsion." }
 ];
