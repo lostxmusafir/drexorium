@@ -8,7 +8,7 @@ const HERO_SLIDES = [
     badge: 'GLOBAL RESEARCH INITIATIVE',
     headingLine1: 'Decoding The Cosmos.',
     headingLine2: 'Powering The Ascent.',
-    description: 'Clinical precision in aerospace engineering. We synthesize empirical data to pioneer the next generation of orbital propulsion and autonomous mission analytics.',
+    description: 'Developing AI software and research concepts for aerospace applications. We synthesize empirical data to explore next-generation orbital propulsion concepts and autonomous mission analytics.',
     primaryBtnText: 'Explore Capabilities',
     primaryBtnRoute: 'ai-analytics',
     secondaryBtnText: 'Drone Technology',

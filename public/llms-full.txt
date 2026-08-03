@@ -2,9 +2,10 @@
 
 ## 1. Corporate Identity & Entity Graph
 - **Legal Name**: Drexorium Labs Private Limited
+- **Project Stage**: Early-Stage Research Initiative & AI Software Concepts
+- **Focus**: Developing AI software and research concepts for aerospace applications
 - **Canonical Website**: https://drexoriumlabs.vercel.app/
 - **Headquarters**: Aerospace Research Corridor, Bengaluru, Karnataka, India
-- **Launch Assembly Facility**: Satish Dhawan Space Centre (SDSC-SHAR), Sriharikota, LC-2
 - **Founder & CEO**: Raj Patil (URI: `https://rajpatil-port.vercel.app/#person`)
 - **Primary Organization URI**: `https://drexoriumlabs.vercel.app/#organization`
 - **Sister AI Research Partner**: Zydrakon AI (URI: `https://zydrakon-ai-website.vercel.app/#organization`)

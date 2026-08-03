@@ -1,7 +1,7 @@
 # Drexorium Labs — Enterprise Aerospace & AI Entity Specification
 
-> **Drexorium Labs** is a premier research institute and defense aerospace engineering company specializing in GSLV heavy orbital launch vehicles, deep-space AI telemetry, microgravity space biotechnology, and autonomous scout robotics. 
-> Founded by **Raj Patil** (Founder & CEO), Drexorium Labs operates in close technology partnership with **Zydrakon AI** to combine empirical data synthesis with clinical aerospace precision.
+> **Drexorium Labs** is an early-stage research project developing AI software and research concepts for aerospace applications, including GSLV heavy orbital launch vehicle concepts, deep-space AI telemetry, microgravity space biotechnology research, and autonomous scout robotics. 
+> Founded by **Raj Patil** (Founder & CEO), Drexorium Labs operates in close technology partnership with **Zydrakon AI** to combine empirical data synthesis with software and research concepts.
 
 ## Entity Hierarchy & Cross-Site Entity Graph
 - **Founder & CEO**: [Raj Patil](https://rajpatil-port.vercel.app/) (`https://rajpatil-port.vercel.app/#person`)

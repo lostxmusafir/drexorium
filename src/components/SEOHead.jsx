@@ -11,7 +11,7 @@ export default function SEOHead({ activePage }) {
     const PAGE_SEO = {
       'home': {
         title: 'Drexorium Labs | Decoding The Cosmos. Powering The Ascent.',
-        description: 'Drexorium Labs — Founded by Raj Patil. Clinical precision in aerospace engineering, GSLV heavy launch systems, OrbitNet AI telemetry, and microgravity space biotechnology.',
+        description: 'Drexorium Labs — Founded by Raj Patil. Developing AI software and research concepts for aerospace applications, including GSLV heavy launch systems concepts, OrbitNet AI telemetry, and microgravity space biotechnology.',
         keywords: 'Drexorium Labs, Raj Patil, Founder Raj Patil, Zydrakon AI, Aerospace AI, GSLV Launch Vehicle, Cryogenic Engine C25, Space Microbiology, OrbitNet AI, Bengaluru Aerospace',
         canonical: 'https://drexoriumlabs.vercel.app/',
         ogType: 'website',
@@ -137,7 +137,7 @@ export default function SEOHead({ activePage }) {
         'jobTitle': 'Founder & AI Developer',
         'url': 'https://rajpatil-port.vercel.app/',
         'image': 'https://drexoriumlabs.vercel.app/assets/raj_patil_founder.jpg',
-        'description': 'Raj Patil is an AI developer, founder of Drexorium Labs, and creator of Zydrakon AI. Specialist in aerospace engineering, GSLV heavy propulsion systems, and deep learning mission telemetry.',
+        'description': 'Raj Patil is an AI developer, founder of Drexorium Labs, and creator of Zydrakon AI. Developing AI software and research concepts for aerospace applications, launch systems concepts, and deep learning mission telemetry.',
         'worksFor': {
           '@id': 'https://drexoriumlabs.vercel.app/#organization'
         },
@@ -177,7 +177,7 @@ export default function SEOHead({ activePage }) {
         'founder': {
           '@id': 'https://rajpatil-port.vercel.app/#person'
         },
-        'description': 'Drexorium Labs is a pioneering aerospace engineering research institute founded by Raj Patil, specializing in GSLV heavy launch systems, OrbitNet AI telemetry, and microgravity space biotechnology.',
+        'description': 'Drexorium Labs is an early-stage research initiative founded by Raj Patil, developing AI software and research concepts for aerospace applications, OrbitNet AI telemetry, and microgravity space biotechnology.',
         'address': {
           '@type': 'PostalAddress',
           'addressLocality': 'Bengaluru',
