@@ -59,26 +59,8 @@ export const extremophileStrains = [
 
 export const microfluidicTestPoints = [
   {
-    id: "bio-cassette",
-    title: "Point 01: Automated Microfluidic Lab-on-a-Chip Cassette",
-    system: "Orbital Bio-Incubator & Fluidics Matrix",
-    location: "Svalbard Polar Station / LEO Orbit",
-    image: "/assets/space_microbiology_lab.png",
-    coordinates: "POS: 38% X // 44% Y",
-    pinX: 38,
-    pinY: 44,
-    description: "Multi-channel automated biofluidic cassette equipped with laser-induced fluorescence (LIF) micro-scanners, automated dye injection, and thermal gradient regulation.",
-    testingMethodology: "Continuous 24-hour real-time AI optical scanning capturing 24,469 high-resolution microbial image frames across 128 micro-well arrays.",
-    specs: [
-      { name: "Imaging Frequency", value: "24,469 captures / 24 hrs" },
-      { name: "Fluidic Resolution", value: "10 Nanoliters / well" },
-      { name: "Fluorescence Wavelength", value: "365 nm UV / 488 nm Cyan" },
-      { name: "Thermal Stability", value: "37.0°C ± 0.05°C" }
-    ]
-  },
-  {
     id: "extremophile-chamber",
-    title: "Point 02: Extremophile Radiation Chamber & Protein Crystallizer",
+    title: "Point 01: Extremophile Radiation Chamber & Protein Crystallizer",
     system: "Deep Space Radiation Exposure Rig",
     location: "Castle Bruce Station / Gateway Test Platform",
     image: "/assets/extremophile_microgravity_growth.png",
