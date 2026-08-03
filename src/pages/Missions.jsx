@@ -32,13 +32,13 @@ export default function Missions() {
         </p>
       </div>
 
-      {/* 1. CHRONOLOGICAL EVOLUTION (2021 - 2030 MILESTONES) */}
+      {/* 1. CHRONOLOGICAL EVOLUTION (2025 - 2030 MILESTONES) */}
       <div className="border blueprint-line bg-[#FFFFFF] p-8 space-y-8">
         <div className="border-b blueprint-line pb-4 flex justify-between items-end">
           <div>
             <span className="text-label-sm text-[#0057FF] font-bold uppercase">CHRONOLOGICAL EVOLUTION</span>
             <h2 className="text-2xl font-bold font-heading text-[#191C1D] uppercase mt-1">
-              LABORATORY MILESTONES (2021 - 2030)
+              LABORATORY MILESTONES (2025 - 2030)
             </h2>
           </div>
           <div className="text-label-sm text-[#46474A] hidden md:block">
@@ -46,7 +46,7 @@ export default function Missions() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {timelineEvents.map((evt, idx) => (
             <div
               key={idx}

@@ -106,9 +106,6 @@ export const missionsData = [
 ];
 
 export const timelineEvents = [
-  { year: "2021", title: "Drexorium Founded", desc: "Established in Bengaluru with a vision to unify deep artificial intelligence with heavy orbital rocketry." },
-  { year: "2022", title: "First AI Model Deployment", desc: "Launched OrbitNet-v1, reducing satellite collision risk calculation time by 98%." },
-  { year: "2023", title: "C25 Engine Cryo Milestone", desc: "Completed 600-second sustained test firing of C25 Cryogenic Engine at Mahendragiri Propulsion Complex." },
   { year: "2025", title: "Deep Space Expansion", desc: "Launched GSLV-DRX3 Mars atmosphere probe and commissioned 100 PFLOPS orbital AI datacenter." },
   { year: "2026", title: "Planetary Defense & Beyond", desc: "Preparing for GSLV-DRX4 Kinetic Asteroid Impactor launch and next-gen reuse booster testing." },
   { year: "2030", title: "Interstellar Flagship Launch", desc: "Scheduled flagship launch on 25 Dec 2030, unifying AI telemetry with interstellar propulsion." }
